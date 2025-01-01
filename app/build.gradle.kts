@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.starkindustries.permissionhadnling"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.starkindustries.permissionhadnling"
@@ -66,4 +66,5 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation("com.google.accompanist:accompanist-permissions:0.31.3-beta")
 }
